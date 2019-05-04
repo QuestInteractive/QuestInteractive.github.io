@@ -1,3 +1,5 @@
+<!-- Created by Brayden Muncy -->
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -6,9 +8,16 @@
     <link rel="stylesheet" type="text/css" href="./CSS/Theme.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body{box-sizing: border-box;}
-        video{display:block;box-shadow: 0px 0px 20px 7px #ecc4ff;}
-        .buyWindow{
+        body {
+            box-sizing: border-box;
+        }
+
+        video {
+            display: block;
+            box-shadow: 0px 0px 20px 7px #ecc4ff;
+        }
+
+        .buyWindow {
             display: flex;
             flex-wrap: wrap;
             position: relative;
@@ -19,13 +28,14 @@
             border-top-right-radius: 10px;
             border-bottom-left-radius: 10px;
         }
+
         .buyWindow::before {
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 800;
             font-size: 15pt;
             content: "GAMES FOR SALE:";
             background: #d780ff;
-            padding-left: 15px; 
+            padding-left: 15px;
             width: calc(100% - 15px);
             line-height: 50px;
             left: 0px;
@@ -33,6 +43,7 @@
             position: absolute;
             border-top-right-radius: 10px;
         }
+
         .gameCard {
             background: #d780ff;
             width: calc(25% - 30px);
@@ -42,16 +53,19 @@
             flex-direction: column;
             margin: 5px;
         }
+
         .gameCard>span {
             font-size: 12pt;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-weight: 400;
         }
+
         .gameCard>img {
             display: block;
             width: 100%;
             margin: auto;
         }
+
         .gameCard>div {
             font-size: 18pt;
             background: #8bff80;
@@ -59,10 +73,12 @@
             padding: 5px 10px;
             border-radius: 0px 5px 5px 0px;
         }
+
         .gameCard>div::before {
             content: "• ";
             color: #d780ff;
         }
+
         .gameCard>button {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             background: #ecc4ff;
@@ -70,6 +86,7 @@
             line-height: 30px;
             width: 100%;
         }
+
         .gameTable {
             background: #d780ff url("../IMAGES/weird-title.png") no-repeat;
             display: block;
@@ -77,27 +94,34 @@
             padding: 10px;
             max-width: 1100px;
             border: 1px solid black;
-        
+
         }
-        
-        th {line-height: 60px;}
-        td {border: 1px dashed black; padding: 10px; font-size: 16pt;}
+
+        th {
+            line-height: 60px;
+        }
+
+        td {
+            border: 1px dashed black;
+            padding: 10px;
+            font-size: 16pt;
+        }
     </style>
 </head>
 
 <body>
     <div class="header">
-<img style="display:flex; margin:auto; " src="IMAGES/Qinteractive.png">
+        <img style="display:flex; margin:auto; " src="IMAGES/Qinteractive.png">
     </div>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="Games.html">Games</a></li>    
-            <li><a href="AboutUs.html">About Us</a></li>    
-            <li><a href="ForumNews.html">Forum/News</a></li>  
+            <li><a href="Games.html">Games</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ForumNews.html">Forum/News</a></li>
             <li><a href="#">Store</a></li>
-            <li><a href="Contact.html">Contact Us/Careers</a></li>    
-            <li><a href="Tournaments.html">Tournaments</a></li>      
+            <li><a href="Contact.html">Contact Us/Careers</a></li>
+            <li><a href="Tournaments.html">Tournaments</a></li>
         </ul>
     </nav>
     <div class="announcement" style="padding: 0px; line-height: 23px;">
@@ -178,6 +202,8 @@
             </td>
         </tr>
     </table>
+    <p2 style="display:block; margin-top: 1%;text-align: center; color:white; text-shadow:2px 2px 2px #000000">Created by Brayden Muncy</p2>
     <p class="top"><a href="#">Return to Top</a></p>
+
 </body>
 </html>
